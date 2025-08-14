@@ -25,7 +25,7 @@ npm start
 
 Serve the frontend files (already served as static by Express /public).
 
-Open browser at http://localhost:3000.
+Open browser at http://localhost:8787.
 
 Test voice chat by clicking and holding "Hold to Talk" button or typing and sending messages.
 
