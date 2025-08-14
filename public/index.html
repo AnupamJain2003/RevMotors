@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rev Voice Chat</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; }
+  #log { height: 150px; overflow-y: scroll; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px; }
+  #mic.rec { background-color: #6c6; }
+</style>
+</head>
+<body>
+<h2>Rev Voice Chat</h2>
+<div id="log"></div>
+<button id="mic">Hold to Talk</button>
+<br /><br />
+
+<input id="text" placeholder="Type message here" style="display: none;" />
+<select id="lang" style="display: none;">
+  <option value="auto">Auto Language</option>
+  <option value="en">English</option>
+  <option value="hi">Hindi</option>
+  <!-- Add more languages as desired -->
+</select>
+<button id="send" style="display: none;">Send</button>
+
+<script src="client.js"></script>
+</body>
+</html>
